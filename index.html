@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Border-radius-Previewer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div class="header">
+			<h1>Border-radius-Previewer</h1>
+		</div>
+		<div class="borders">
+			<input type="range" min="0" max="100" value="0" name="top-left" class="horiz" id="tl">
+			<input type="range" min="0" max="100" value="0" name="top-right" class="vert" id="tr">
+			<input type="range" min="0" max="100" value="0" name="bottom-left" class="vert" id="bl">
+			<div id="border"></div>
+			<input type="range" min="0" max="100" value="0" name="bottom-right" class="horiz" id="br">
+		</div>
+		<div class="outall">
+			<p>Border-radius: 
+				<output id="outtl">0%</output>
+				<output id="outtr">0%</output>
+				<output id="outbr">0%</output>
+				<output id="outbl">0%</output>
+				<button id="copiar">Copiar</button></p>
+		</div>
+	</div>
+</body>
+<script src="js/main.js"></script>
+</html>
