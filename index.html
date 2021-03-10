@@ -12,8 +12,8 @@
 		</div>
 		<div class="borders">
 			<input type="range" min="0" max="100" value="0" name="top-left" class="horiz" id="tl">
-			<input type="range" min="0" max="100" value="0" name="top-right" class="vert" id="tr">
-			<input type="range" min="0" max="100" value="0" name="bottom-left" class="vert" id="bl">
+			<input type="range" min="0" max="100" value="0" name="top-right" orient="vertical" id="tr">
+			<input type="range" min="0" max="100" value="0" name="bottom-left" orient="vertical" id="bl">
 			<div id="border"></div>
 			<input type="range" min="0" max="100" value="0" name="bottom-right" class="horiz" id="br">
 		</div>
@@ -23,7 +23,8 @@
 				<output id="outtr">0%</output>
 				<output id="outbr">0%</output>
 				<output id="outbl">0%</output>
-				<button id="copiar">Copiar</button></p>
+				<button id="copiar">Copiar</button>
+			</p>
 		</div>
 	</div>
 </body>
